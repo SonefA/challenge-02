@@ -63,7 +63,7 @@ function getInfoPenjualan(dataPenjualanNovel) {
             //Presentase Keuntungan 
             hasil.presentaseKeuntungan = hasil.totalModal/item.hargaBeli 
      
-            //Produk Buku Terlaris 
+            //Buku Terlaris 
             if(item.totalTerjual>totalTerjualKeseluruhan){ 
                 hasil.produkBukuTerlaris= item.namaProduk 
                 totalTerjualKeseluruhan = item.totalTerjual 
