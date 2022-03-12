@@ -12,22 +12,26 @@
 //     return arraySort[1];
 // }
 
-function getAngkaTebesarKedua(arrayNumber) {
-    if(arrayNumber) {
+function getAngkaTebesarKedua(arrayNumber) 
+{
+    if(arrayNumber) 
+    {
         let arrayFilter = []
         for(let i of arrayNumber) {
-            if(arrayFilter.indexOf(i) === -1) {
+            if(arrayFilter.indexOf(i) === -1) 
+            {
                 arrayFilter.push(i);
             }
         }
-        let arrayFilter = arrayFilter.sort((a, b) => b - a);
+        let arraySort = arrayFilter.sort((a, b) => b - a);
         return arraySort[1]
     }
-    else if (arrayNumber == null) {
+    else if (arrayNumber == null) 
+    {
         return "Error"
     }
     else {
-        return "Eror"
+        return "Error"
     }
 }
 
